@@ -16,6 +16,8 @@ spotify = spotipy.Spotify(client_credentials_manager = ccm)
 
 list_data = spotify.playlist_tracks(playlist_url)
 track_num = list_data['total']
+if track_num > 100:
+    track_num = 100
 urls_list =[]
 for i in range(track_num):
     track_url = list_data['items'][i]['track']['external_urls']['spotify']
