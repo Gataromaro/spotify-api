@@ -4,8 +4,10 @@ Spotify API operation code for python
 ## Description
 This code can control Spotify API on python.
 By using Spotify API, you accept the Spotify Developer Terms of Service.
-When you use this codes, you need to input 'client ID' and 'client secret'
-In this codes,'client ID' and 'client secret' are written like '0000000000000000000000'
+When you use this codes, you need to input 'client ID' , 'client secret', 'username' and 'redirect_uri'.  
+In this codes,'client ID' and 'client secret' are written like '0000000000000000000000'  
+'username' are written like 'YOUR USER NAME' and 'redirect_uri' are written like 'Redirect URI'.  
+
 This repository contain 5 files.  
 ・spotyfy_api_track_data_feature.py  
 Track feature parameters of one track can be obtained by this code.   
@@ -38,9 +40,10 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 Spotify APIを操作するためのコードです。  
 
 Spotify APIを使うためには、Spotify Developer Termsに別途登録する必要があります。  
-このコードを使用するには、'client ID' と 'client secret'を入力する必要があります。  
+このコードを使用するには、'client ID', 'client secret', 'username', 'redirect_uri'を入力する必要があります。  
 'client ID' と 'client secret'はSpotify Developer Termsに登録することで取得することが出来ます。  
 このコード上では、'client ID' と 'client secret'は0000000000000000000000と表現されています。  
+'username' は'YOUR USER NAME' 、 'redirect_uri'は'Redirect URI'と表現されています。  
 このリポジトリには５つのファイルがあります。  
   
 ・spotyfy_api_track_data_feature.py  
