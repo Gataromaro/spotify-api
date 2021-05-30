@@ -6,7 +6,7 @@ This code can control Spotify API on python.
 By using Spotify API, you accept the Spotify Developer Terms of Service.
 When you use this codes, you need to input 'client ID' and 'client secret'
 In this codes,'client ID' and 'client secret' are written like '0000000000000000000000'
-This repository contain 2 files.  
+This repository contain 3 files.  
 ・spotyfy_api_track_data_feature.py  
 Track feature parameters of one track can be obtained by this code.   
   
@@ -36,7 +36,8 @@ Spotify APIを使うためには、Spotify Developer Termsに別途登録する�
 このコードを使用するには、'client ID' と 'client secret'を入力する必要があります。  
 'client ID' と 'client secret'はSpotify Developer Termsに登録することで取得することが出来ます。  
 このコード上では、'client ID' と 'client secret'は0000000000000000000000と表現されています。  
-このリポジトリには２つのファイルがあります。  
+このリポジトリには３つのファイルがあります。  
+  
 ・spotyfy_api_track_data_feature.py  
 単一曲の特徴パラメーターを取得することが出来ます。  
 ・spotyfy_api_track_data_for_musician.py  
