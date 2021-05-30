@@ -36,6 +36,8 @@ Spotify APIを使うためには、Spotify Developer Termsに別途登録する�
 単一曲の特徴パラメーターを取得することが出来ます。  
 ・spotyfy_api_track_data_for_musician.py  
 単一曲のパラメーターのうち、曲をカバーする際に有用なデータを取得することが出来ます。  
+・spotyfy_api_playlist_track_feature.py　　
+プレイリストの曲の特徴パラメータを取得して一覧をCSVファイルで保存します。  
   
 このコードは、外部ライブラリとして「spotipy」と「pandas」を使用しています。  
 コードを実行する前に、上記ライブラリをインストールする必要があります。  
