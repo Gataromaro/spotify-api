@@ -14,6 +14,11 @@ Track feature parameters of one track can be obtained by this code.
 Track feature parameters of one track can be obtained by this code.   
 In particular, these parameters is usefull when you play a cover of the track.  
   
+・spotyfy_api_playlist_track_feature.py   
+Track feature parameters from one playlist can be obtained.
+And track feature parameters saved in csv file by this code.  
+
+
 ## Install
 This code use External python library.  
 Before You use code, you need to install 'spotipy' and 'pandas' library.  
